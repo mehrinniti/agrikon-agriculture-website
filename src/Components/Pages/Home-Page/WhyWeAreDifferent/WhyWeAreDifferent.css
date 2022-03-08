@@ -1,0 +1,311 @@
+.Why-we-are-different-section{
+    background: url(../../../../images/Home/village-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.why-different-hr-line{
+    margin-bottom: 80px;
+}
+
+.why-different-cards-container{
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.why-different-card-container{
+    margin-top: 8px;
+    margin-bottom: 13px;
+    
+    
+}
+
+.why-different-card-container img{
+    width: 42%;
+    margin-top: 10px;
+}
+
+.why-different-card-container p{
+    font-size: 19px;
+    font-weight: 600;
+    text-align: left;
+    padding-right: 20px;
+    margin-left: -20px;
+}
+
+
+
+
+/* --------------- Mobile responsive --------------- */
+
+/* Small Mobile  */
+@media (max-width: 320px) {
+    .Why-we-are-different-section{
+        background: url(../../../../images/Home/village-bg.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 250vh;
+    }
+    
+    .why-different-hr-line{
+        margin-bottom: 80px;
+    }
+    
+    .why-different-cards-container{
+        padding-left: 39px;
+        padding-right: 43px;
+    }
+    
+    .why-different-card-container{
+        margin-top: 8px;
+        margin-bottom: 13px;
+        
+        
+    }
+    
+    .why-different-card-container img{
+        width: 22%;
+        margin-top: 10px;
+    }
+    
+    .why-different-card-container p{
+        font-size: 15px;
+        font-weight: 600;
+        text-align: left;
+        padding-right: 0px;
+        margin-left: 0px;
+    }
+    
+}
+/* Normal Mobile  */
+@media (min-width: 321px) {
+    .Why-we-are-different-section{
+        background: url(../../../../images/Home/village-bg.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 257vh;
+    }
+    
+    .why-different-cards-container{
+        padding-left: 78px;
+        padding-right: 78px;
+    }
+    
+    .why-different-card-container img{
+        width: 32%;
+        margin-top: 10px;
+    }
+    
+    .why-different-card-container p{
+        font-size: 17px;
+        font-weight: 600;
+        text-align: left;
+        padding-right: 0px;
+        margin-left: 0px;
+    }
+}
+
+@media (min-width: 380px) {
+    .Why-we-are-different-section{
+        background: url(../../../../images/Home/village-bg.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 235vh;
+    }
+    
+    .why-different-cards-container{
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+    
+    .why-different-card-container img{
+        width: 32%;
+        margin-top: 10px;
+    }
+    
+    .why-different-card-container p{
+        font-size: 19px;
+        font-weight: 600;
+        text-align: left;
+        padding-right: 0px;
+        margin-left: 0px;
+    }
+}
+
+
+/* --------------- Tablet responsive --------------- */
+
+/* Tab  */
+@media (min-width: 481px) {
+    .Why-we-are-different-section{
+        background: url(../../../../images/Home/village-bg.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 162vh;
+    }
+
+    .why-different-hr-line{
+        margin-bottom: 100px;
+    }
+    
+    .why-different-cards-container{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    .why-different-card-container img{
+        width: 32%;
+        margin-top: 10px;
+    }
+    
+    .why-different-card-container p{
+        font-size: 19px;
+        font-weight: 600;
+        text-align: left;
+        padding-right: 0px;
+        margin-left: 0px;
+    }
+}
+
+/* Netbooks / iPad  */
+@media (min-width: 768px) {
+    .Why-we-are-different-section{
+        background: url(../../../../images/Home/village-bg.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 77vh;
+    }
+
+    .why-different-hr-line{
+        margin-bottom: 100px;
+    }
+    
+    .why-different-cards-container{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    .why-different-card-container img{
+        width: 42%;
+        margin-top: 10px;
+    }
+    
+    .why-different-card-container p{
+        font-size: 18px;
+        font-weight: 600;
+        text-align: left;
+        padding-right: 0px;
+        margin-left: -15px;
+    }
+}
+
+
+@media (min-width: 912px) {
+    .Why-we-are-different-section{
+        background: url(../../../../images/Home/village-bg.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 62vh;
+    }
+
+    .why-different-hr-line{
+        margin-bottom: 100px;
+    }
+    
+    .why-different-cards-container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .why-different-card-container img{
+        width: 42%;
+        margin-top: 10px;
+    }
+    
+    .why-different-card-container p{
+        font-size: 19px;
+        font-weight: 600;
+        text-align: left;
+        padding-right: 0px;
+        margin-left: -15px;
+    }
+
+}
+
+
+
+/* --------------- Desktop responsive --------------- */
+
+@media (min-width: 1024px) {
+    .Why-we-are-different-section{
+        background: url(../../../../images/Home/village-bg.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 53vh;
+    }
+
+    .why-different-hr-line{
+        margin-bottom: 90px;
+    }
+    
+    .why-different-cards-container{
+        padding-left: 64px;
+        padding-right: 64px;
+    }
+    
+    .why-different-card-container img{
+        width: 42%;
+        margin-top: 10px;
+    }
+    
+    .why-different-card-container p{
+        font-size: 19px;
+        font-weight: 600;
+        text-align: left;
+        padding-right: 0px;
+        margin-left: -15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .Why-we-are-different-section{
+        background: url(../../../../images/Home/village-bg.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    
+    .why-different-hr-line{
+        margin-bottom: 80px;
+    }
+    
+    .why-different-cards-container{
+        padding-left: 130px;
+        padding-right: 130px;
+    }
+    
+    .why-different-card-container{
+        margin-top: 8px;
+        margin-bottom: 13px;
+    }
+    
+    .why-different-card-container img{
+        width: 42%;
+        margin-top: 10px;
+    }
+    
+    .why-different-card-container p{
+        font-size: 19px;
+        font-weight: 600;
+        text-align: left;
+        padding-right: 20px;
+        margin-left: -20px;
+    }
+    
+}
+
+
+
+
+

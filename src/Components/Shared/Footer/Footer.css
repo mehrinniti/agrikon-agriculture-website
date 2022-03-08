@@ -1,0 +1,390 @@
+.Footer-section{
+    background: url(../../../images/footer-background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 71vh;
+    color: rgb(207, 207, 207);
+    font-size: 17px;
+
+    
+}
+.footer-social-container{
+    margin-left: -115px;
+}
+.footer-first-column img{
+    width: 110%;
+    margin-left: -11px;
+    margin-top: 20px;
+}
+
+.footer-first-column p{
+    text-align: start;
+    margin-top: 15px;
+}
+.footer-social-icon{
+    color: rgb(207, 207, 207);
+    background-color: rgba(19, 19, 19, 0.616);
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 20px;
+}
+.footer-social-icon:hover{
+    color: #008336;
+    background-color: white;
+}
+.footer-facebook{
+    width: 40px;
+}
+.footer-instagram{
+    width: 41px;
+    font-size: 21px;
+    font-weight: 590;
+}
+
+.footer-second-column{
+    text-align: start;
+    margin-top: 57px;
+}
+.footer-second-column p{
+    margin-top: 25px;
+}
+.footer-second-column p i{
+    margin-right: 20px;
+    color: #008336;
+
+}
+.footer-second-column p a{
+    color: rgb(207, 207, 207);
+    text-decoration: none;
+}
+.footer-second-column p a:hover{
+    color: #008336;
+}
+
+.footer-third-column{
+    text-align: start;
+    margin-top: 57px;
+}
+.footer-third-column p i{
+    margin-right: 20px;
+    color: #008336;
+
+}
+.footer-third-column p .footer-link{
+    color: rgb(207, 207, 207);
+    text-decoration: none;
+}
+.footer-third-column p .footer-link:hover{
+    color: #008336;
+}
+
+.footer-fourth-column{
+    text-align: start;
+    margin-top: 57px;
+}
+.subscribe-btn{
+    background-color: #008336;
+    font-size: 17px;
+    letter-spacing: .8px;
+}
+
+.subscribe-btn:hover{
+    background-color: rgba(19, 19, 19, 0.616);
+    border: 0px solid rgba(19, 19, 19, 0.616) !important;
+    color: white;
+    padding: 7px 13px;
+    
+    font-size: 17px;
+    letter-spacing: .8px;
+}
+
+
+
+
+
+/* --------------- Mobile responsive --------------- */
+
+/* Small Mobile  */
+@media (max-width: 320px) {
+    .Footer-section{
+        background: url(../../../images/footer-background.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 202vh;
+        color: rgb(207, 207, 207);
+        font-size: 17px;
+    
+        
+    }
+    .footer-first-column img{
+        width: 100%;
+    }
+    .footer-third-column{
+        padding-right: 46px;
+
+    }
+    .footer-fourth-column{
+        /* text-align: start; */
+        /* margin-top: 57px; */
+        /* margin-right: 0px; */
+        /* padding-right: 80px; */
+        /* padding-left: 65px;
+        margin-left: -10px; */
+
+    }
+}
+/* Normal Mobile  */
+@media (min-width: 321px) {
+    .Footer-section{
+        background: url(../../../images/footer-background.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 192vh;
+        color: rgb(207, 207, 207);
+        font-size: 17px;
+    
+        
+    }
+    .footer-first-column img{
+        width: 100%;
+    }
+    .footer-first-column{
+        padding-right: 52px;
+    }
+    .footer-social-container{
+        margin-left: -155px;
+    }
+    .footer-second-column{
+        padding-right: 58px;
+        /* padding-left: 80px; */
+        /* margin-left: 30px; */
+    }
+    .footer-third-column{
+        padding-right: 139px;
+
+    }
+    .footer-fourth-column{
+        /* text-align: start; */
+        /* margin-top: 57px; */
+        /* margin-right: 0px; */
+        /* padding-right: 80px; */
+        /* padding-left: 65px;
+        margin-left: -10px; */
+
+    }
+}
+
+@media (min-width: 380px) {
+    .Footer-section{
+        background: url(../../../images/footer-background.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 150vh;
+        color: rgb(207, 207, 207);
+        font-size: 17px;
+    
+        
+    }
+    .footer-social-container{
+        margin-left: -175px;
+    }
+    .footer-second-column{
+        padding-right: 45px;
+    }
+    .footer-third-column{
+        padding-right: 156px;
+
+    }
+}
+
+
+
+
+@media (min-width: 400px) {
+    .Footer-section{
+        background: url(../../../images/footer-background.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 142vh;
+        color: rgb(207, 207, 207);
+        font-size: 17px;
+    
+        
+    }
+    .footer-first-column img{
+        width: 100%;
+    }
+    .footer-first-column{
+        padding-right: 60px;
+    }
+    .footer-social-container{
+        margin-left: -185px;
+    }
+    .footer-second-column{
+        padding-right: 58px;
+        /* padding-left: 80px; */
+        /* margin-left: 30px; */
+    }
+    .footer-third-column{
+        padding-right: 176px;
+
+    }
+}
+
+
+/* --------------- Tablet responsive --------------- */
+
+/* Tab  */
+@media (min-width: 481px) {
+    .Footer-section{
+        background: url(../../../images/footer-background.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 140vh;
+        color: rgb(207, 207, 207);
+        font-size: 17px;
+    
+        
+    }
+    .footer-first-column img{
+        width: 100%;
+    }
+    .footer-first-column{
+        padding-right: 100px;
+    }
+    .footer-social-container{
+        margin-left: -275px;
+    }
+    .footer-second-column{
+        padding-right: 250px;
+    }
+    .footer-third-column{
+        margin-right: 0px !important;
+        padding-right: 0px !important;
+    }
+}
+
+/* Netbooks / iPad  */
+@media (min-width: 768px) {
+    .Footer-section{
+        background: url(../../../images/footer-background.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 103vh;
+        color: rgb(207, 207, 207);
+        font-size: 17px;
+    
+        
+    }
+    .footer-first-column img{
+        width: 100%;
+    }
+    .footer-first-column{
+        padding-right: 0px;
+    }
+    .footer-social-container{
+        margin-left: -555px;
+    }
+    .footer-second-column{
+        padding-right: 430px;
+    }
+    .footer-third-column{
+        margin-right: 0px !important;
+        padding-right: 0px !important;
+    }
+}
+
+
+
+@media (min-width: 820px) {
+    .Footer-section{
+        background: url(../../../images/footer-background.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 90vh;
+        color: rgb(207, 207, 207);
+        font-size: 17px;
+    
+        
+    }
+}
+
+
+
+@media (min-width: 912px) {
+    .Footer-section{
+        background: url(../../../images/footer-background.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 77vh;
+        color: rgb(207, 207, 207);
+        font-size: 17px;
+    
+        
+    }
+}
+
+
+/* --------------- Desktop responsive --------------- */
+
+@media (min-width: 1024px) {
+    .Footer-section{
+        background: url(../../../images/footer-background.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 35vh;
+        color: rgb(207, 207, 207);
+        font-size: 17px;
+    
+        
+    }
+    .footer-first-column img{
+        width: 100%;
+    }
+    .footer-first-column{
+        padding-right: 10px;
+    }
+    .footer-social-container{
+        margin-left: -80px;
+    }
+    .footer-second-column{
+        padding-right: 10px;
+    }
+    .footer-third-column{
+        margin-right: 0px !important;
+        padding-right: 10px !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .Footer-section{
+        background: url(../../../images/footer-background.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 73vh;
+        color: rgb(207, 207, 207);
+        font-size: 17px;
+    
+        
+    }
+    .footer-first-column img{
+        width: 100%;
+    }
+    .footer-first-column{
+        padding-right: 10px;
+    }
+    .footer-social-container{
+        margin-left: -110px;
+    }
+    .footer-second-column{
+        padding-right: 10px;
+    }
+    .footer-third-column{
+        margin-right: 0px !important;
+        padding-right: 10px !important;
+    }
+}
+
+
+
+

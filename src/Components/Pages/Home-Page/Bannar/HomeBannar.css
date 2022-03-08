@@ -1,0 +1,280 @@
+.slide{
+    margin-top: 80px;
+}
+.home-banner img{
+    height: 89vh;
+}
+.home-banner-text-left{
+    text-align: left;
+    margin-bottom: 53px;
+    font-family:cursive;
+}
+.home-banner-text-right{
+    text-align: right;
+    margin-bottom: 53px;
+    font-family:cursive;
+}
+.home-banner-text-right p{
+    font-size: 20px;
+}
+.green-text{
+    color: #00a848  ;
+}
+.yellow-text{
+    color: #f7c35f;
+}
+.small-text{
+    border-bottom: 4px solid #f7c35f;
+}
+.big-text{
+    font-size: 70px;
+    margin-bottom: 200px;
+}
+
+.empty-btn{
+    position: relative;
+    /* top: 50%; */
+    /* left: 50%; */
+    transform: translate(-50%, -50%);
+}
+
+.outline-btn{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin: 30px 0;
+    border: 3px solid #f7c35f;
+    padding: 14px 60px;
+    overflow: hidden;
+    transition: 1s all ease;
+    margin-top: 45px;
+}
+
+.outline-btn::before{
+    background: #f7c35f;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    transition: all 0.6s ease;
+    color: white;
+
+}
+.outline-btn::before{
+    width: 100%;
+    height: 0;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.outline-btn:hover{
+    color: white;
+}
+.outline-btn:hover::before{
+    height: 380%;
+}
+
+
+
+
+
+
+/* --------------- Mobile responsive --------------- */
+
+@media (max-width: 320px) {
+    .menu{
+        /* color: rgb(217, 255, 0); */
+    }
+}
+@media (min-width: 321px) {
+    .menu{
+        /* color: brown; */
+    }
+}
+
+/* --------------- Tablet responsive --------------- */
+
+/* Tab  */
+@media (min-width: 481px) {
+    .big-text{
+        font-size: 52px;
+        margin-bottom: 500px !important;
+    }
+    .home-banner-text-left{
+        text-align: left;
+        margin-bottom: 280px;
+        font-family:cursive;
+
+    }
+    .home-banner-text-right{
+        text-align: right;
+        margin-bottom: 280px;
+        font-family:cursive;
+    }
+    .home-banner-text-right p{
+        font-size: 25px;
+    }
+
+    .outline-btn{
+        position: relative;
+        color: white;
+        font-size: 24px;
+        font-weight: 600;
+        font-family: sans-serif;
+        margin: 30px 0;
+        border: 3px solid #f7c35f;
+        padding: 14px 60px;
+        overflow: hidden;
+        transition: 1s all ease;
+        margin-top: 45px;
+    }
+}
+
+/* Netbooks  */
+@media (min-width: 769px) {
+    .small-text{
+        border-bottom: 4px solid #f7c35f;
+        font-size: 25px;
+        margin-bottom: 50px !important;
+    }
+    .big-text{
+        font-size: 55px;
+        margin-bottom: 500px !important;
+    }
+    .home-banner-text-left{
+        text-align: left;
+        margin-bottom: 350px;
+        font-family:cursive;
+
+    }
+    .home-banner-text-right{
+        text-align: right;
+        margin-bottom: 350px;
+        font-family:cursive;
+    }
+    .home-banner-text-left h4{
+        
+        margin-bottom: 20px !important;
+    }
+    .home-banner-text-right h4{
+        
+        margin-bottom: 20px !important;
+    }
+    .home-banner-text-right p{
+        font-size: 26px;
+    }
+
+    .outline-btn{
+        position: relative;
+        color: white;
+        font-size: 25px;
+        font-weight: 600;
+        font-family: sans-serif;
+        margin: 30px 0;
+        border: 3px solid #f7c35f;
+        padding: 14px 60px;
+        overflow: hidden;
+        transition: 1s all ease;
+        margin-top: 45px;
+    }
+}
+
+/* --------------- Desktop responsive --------------- */
+
+@media (min-width: 1025px) {
+    .slide{
+        margin-top: 80px;
+    }
+    .home-banner img{
+        height: 89vh;
+    }
+    .home-banner-text-left{
+        text-align: left;
+        margin-bottom: 53px;
+        font-family:cursive;
+    }
+    .home-banner-text-right{
+        text-align: right;
+        margin-bottom: 53px;
+        font-family:cursive;
+    }
+    .home-banner-text-right p{
+        font-size: 26px;
+    }
+    .green-text{
+        color: #00a848  ;
+    }
+    .yellow-text{
+        color: #f7c35f;
+    }
+    .small-text{
+        border-bottom: 4px solid #f7c35f;
+    }
+    .big-text{
+        font-size: 70px;
+        margin-bottom: 200px;
+    }
+    
+    .empty-btn{
+        position: relative;
+        /* top: 50%; */
+        /* left: 50%; */
+        transform: translate(-50%, -50%);
+    }
+    
+    .outline-btn{
+        position: relative;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: sans-serif;
+        margin: 30px 0;
+        border: 3px solid #f7c35f;
+        padding: 14px 60px;
+        overflow: hidden;
+        transition: 1s all ease;
+        margin-top: 45px;
+    }
+    
+    .outline-btn::before{
+        background: #f7c35f;
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+        transition: all 0.6s ease;
+        color: white;
+    
+    }
+    .outline-btn::before{
+        width: 100%;
+        height: 0;
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+    .outline-btn:hover{
+        color: white;
+    }
+    .outline-btn:hover::before{
+        height: 380%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+

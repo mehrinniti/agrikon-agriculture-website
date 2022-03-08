@@ -1,0 +1,194 @@
+.agriculturist-container{
+    background: linear-gradient( rgba(39, 39, 39, 0.644),  rgba(39, 39, 39, 0.644)), url(../../../../images/Home/cow-section-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    height: 80vh;
+    color: #fbf3e5;
+    text-align: center;
+    font-family: cursive;
+    margin-top: 80px;
+    
+}
+
+.agriculturist-container h1{
+    font-size: 50px;
+    margin-top: 15px;
+
+}
+
+.agriculturist-container img{
+    /* margin-bottom: 10px; */
+    /* margin-left: -40px; */
+    height: 550px;
+    width: 555px;
+    padding-bottom: 26px;
+}
+
+
+/* --------------- Mobile responsive --------------- */
+
+/* Small Mobile  */
+@media (max-width: 320px) {
+    .agriculturist-container{
+        background: linear-gradient( rgba(39, 39, 39, 0.644),  rgba(39, 39, 39, 0.644)), url(../../../../images/Home/cow-section-bg.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        /* background-attachment: fixed; */
+        height: 60vh;
+        color: #fbf3e5;
+        text-align: center;
+        font-family: cursive;
+        margin-top: 80px;
+        
+    }
+    
+    .agriculturist-container h1{
+        font-size: 23px;
+        text-align: center;
+        margin-right: -115px;
+        margin-bottom: 150px;
+        line-height: 33px;
+    
+    }
+    
+    .agriculturist-container img{
+        width: 0;
+    }
+}
+/* Normal Mobile  */
+@media (min-width: 321px) {
+    .agriculturist-container{
+        background: linear-gradient( rgba(39, 39, 39, 0.644),  rgba(39, 39, 39, 0.644)), url(../../../../images/Home/cow-section-bg.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        /* background-attachment: fixed; */
+        height: 60vh;
+        color: #fbf3e5;
+        text-align: center;
+        font-family: cursive;
+        margin-top: 80px;
+        
+    }
+    
+    .agriculturist-container h1{
+        font-size: 33px;
+        text-align: center;
+        margin-right: -160px;
+        margin-bottom: 85px;
+        line-height: 43px;
+    
+    }
+    
+    .agriculturist-container img{
+        width: 0;
+    }
+}
+
+/* --------------- Tablet responsive --------------- */
+
+/* Tab  */
+@media (min-width: 481px) {
+    .agriculturist-container{
+        height: 70vh;
+    }
+    .agriculturist-container h1{
+        font-size: 33px;
+        line-height: 50px !important;
+        margin-left: 37px !important;
+        margin-right: -180px !important;
+        margin-bottom: 50px !important;
+    }
+}
+
+/* Netbooks / iPad  */
+@media (min-width: 768px ) {
+    .agriculturist-container h1{
+        font-size: 53px;
+        line-height: 70px !important;
+        margin-left: 7px !important;
+        margin-right: -280px !important;
+        margin-bottom: -140px !important;
+    }
+}
+
+/* --------------- Desktop responsive --------------- */
+
+@media (min-width: 1024px ) {
+    .agriculturist-container{
+        background: linear-gradient( rgba(39, 39, 39, 0.644),  rgba(39, 39, 39, 0.644)), url(../../../../images/Home/cow-section-bg.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        /* background-attachment: fixed; */
+        height: 75vh;
+        color: #fbf3e5;
+        text-align: center;
+        font-family: cursive;
+        margin-top: 80px;
+        
+    }
+
+    .agriculturist-section{
+        margin-left: -65px;
+    }
+    
+    .agriculturist-container h1{
+        font-size: 54px !important;
+        margin-top: 0px !important;
+        margin-left: 0px !important;
+        margin-right: -60px !important;
+        margin-bottom: 100px !important;
+        /* padding-right: -48px !important; */
+    }
+    
+    .agriculturist-container img{
+        /* margin-bottom: 10px; */
+        /* margin-left: -40px; */
+        height: 580px;
+        width: 580px;
+        /* padding-bottom: 26px; */
+        /* margin-right: -40px !important; */
+        margin-left: -145px;
+        margin-top: 290px;
+        /* margin-right: -20px; */
+    }
+}
+
+@media (min-width: 1200px ) {
+    .agriculturist-container{
+        background: linear-gradient( rgba(39, 39, 39, 0.644),  rgba(39, 39, 39, 0.644)), url(../../../../images/Home/cow-section-bg.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        /* background-attachment: fixed; */
+        height: 80vh;
+        color: #fbf3e5;
+        text-align: center;
+        font-family: cursive;
+        margin-top: 80px;
+        
+    }
+
+    .agriculturist-section{
+        margin-left: -65px;
+    }
+    
+    .agriculturist-container h1{
+        font-size: 50px !important;
+        margin-top: 0px !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        margin-bottom: 10px !important;
+    
+    }
+    
+    .agriculturist-container img{
+        /* margin-bottom: 10px; */
+        /* margin-left: -40px; */
+        height: 550px;
+        width: 555px;
+        padding-bottom: 26px;
+        /* margin-right: -40px !important; */
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+}

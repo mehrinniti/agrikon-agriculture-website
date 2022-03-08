@@ -1,0 +1,286 @@
+.home-product-container{
+    background: linear-gradient( rgba(39, 39, 39, 0.644),  rgba(39, 39, 39, 0.644)), url(../../../../images/Home/img-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.home-product-card-container{
+    margin-top: 100px;
+}
+
+.home-product-card{
+    color: white;
+    border: 1px solid rgba(35, 35, 35, 0.8);
+    background-color: rgba(35, 35, 35, 0.8);
+    border-radius: 7px;
+}
+
+.home-product-card:hover{
+    background-color: #EEC344;
+    color: black;
+}
+
+.home-product-card img{
+    width: 90px;
+    height: 70px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+.home-product-card p{
+    margin-bottom: 30px;
+}
+
+
+
+
+/* --------------- Mobile responsive --------------- */
+
+/* Small Mobile  */
+@media (max-width: 320px) {
+    .home-product-container{
+        background: linear-gradient( rgba(39, 39, 39, 0.644),  rgba(39, 39, 39, 0.644)), url(../../../../images/Home/img-bg.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 275vh;
+    }
+    .product-home-title h2{
+        font-size: 18px ;
+    }
+    .home-product-card{
+        margin-left: 24px;
+        /* margin-right: 10px; */
+    }
+    .mobile-responsive-1st-3-card{
+        
+        margin-bottom: -70px !important;
+    }
+    .mobile-responsive-cattle{
+        margin-right: 24px;
+    }
+    .mobile-responsive-farm{
+        margin-right: 24px;
+    }
+    .mobile-responsive-2nd-3-card{
+        margin-bottom: 30px ;
+
+    }
+    .mobile-responsive-wheats{
+        margin-top: 76px;
+    }
+}
+/* Normal Mobile  */
+@media (min-width: 321px) {
+    .home-product-container{
+        background: linear-gradient( rgba(39, 39, 39, 0.644),  rgba(39, 39, 39, 0.644)), url(../../../../images/Home/img-bg.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 253vh;
+    }
+    
+    .home-product-card{
+        margin-left: 43px;
+        margin-right: 43px !important;
+    }
+    .mobile-responsive-1st-3-card{
+        
+        margin-bottom: -70px !important;
+    }
+    .mobile-responsive-cattle{
+        margin-right: 24px;
+    }
+    .mobile-responsive-farm{
+        margin-right: 24px;
+    }
+    .mobile-responsive-2nd-3-card{
+        margin-bottom: 30px ;
+
+    }
+    .mobile-responsive-wheats{
+        margin-top: 76px;
+    }
+}
+
+
+
+
+@media (min-width: 380px) {
+    .home-product-container{
+        background: linear-gradient( rgba(39, 39, 39, 0.644),  rgba(39, 39, 39, 0.644)), url(../../../../images/Home/img-bg.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 195vh;
+    }
+    
+    .home-product-card{
+        margin-left: 43px;
+        margin-right: 43px !important;
+    }
+    .mobile-responsive-1st-3-card{
+        
+        margin-bottom: -70px !important;
+    }
+    .mobile-responsive-cattle{
+        margin-right: 24px;
+    }
+    .mobile-responsive-farm{
+        margin-right: 24px;
+    }
+    .mobile-responsive-2nd-3-card{
+        margin-bottom: 30px ;
+
+    }
+    .mobile-responsive-wheats{
+        margin-top: 76px;
+    }
+}
+
+/* --------------- Tablet responsive --------------- */
+
+/* Tab  */
+@media (min-width: 481px) {
+    .product-home-title h2{
+        font-size: 30px ;
+    }
+    .home-product-container{
+        background: linear-gradient( rgba(39, 39, 39, 0.644),  rgba(39, 39, 39, 0.644)), url(../../../../images/Home/img-bg.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 230vh;
+    }
+    .home-product-container{
+        /* column-gap: 50px !important; */
+    }
+    .home-product-card{
+        /* margin-left: 40px; */
+        /* margin-right: 90px !important; */
+    }
+    .tablet-responsive-1{
+        margin-left: 70px !important;
+        margin-right: 70px !important;
+    }
+    .mobile-responsive-1st-3-card{
+        
+        margin-bottom: -70px !important;
+    }
+    .mobile-responsive-cattle{
+        margin-right: 79px !important;
+        margin-left: 76px !important;
+    }
+    .mobile-responsive-cattle p{
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+    .mobile-responsive-farm{
+        margin-right: 24px;
+    }
+    .mobile-responsive-2nd-3-card{
+        margin-bottom: 30px ;
+
+    }
+    .mobile-responsive-wheats{
+        margin-top: 76px;
+        margin-right: 79px !important;
+        margin-left: 76px !important;
+    }
+    .mobile-responsive-materials{
+        margin-right: 79px !important;
+        margin-left: 76px !important;
+    }
+}
+
+/* Netbooks / iPad  */
+@media (min-width: 768px ) {
+    .product-home-title h2{
+        font-size: 43px ;
+    }
+    .home-product-container{
+        background: linear-gradient( rgba(39, 39, 39, 0.644),  rgba(39, 39, 39, 0.644)), url(../../../../images/Home/img-bg.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 70vh;
+    }
+    .card-container{
+        margin-left: 34px !important;
+    }
+    .home-product-card{
+        margin-left: 5px;
+    }
+    .tablet-responsive-1{
+        margin-left: 0px !important;
+        margin-right: 20px !important;
+    }
+    .mobile-responsive-1st-3-card{
+        
+        margin-bottom: 0px !important;
+    }
+    .mobile-responsive-cattle{
+        margin-right: 0px;
+    }
+    .mobile-responsive-wheats{
+        margin-top: 0px;
+    }
+    
+}
+
+
+@media (min-width: 800px ){
+    .home-product-container{
+        background: linear-gradient( rgba(39, 39, 39, 0.644),  rgba(39, 39, 39, 0.644)), url(../../../../images/Home/img-bg.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 60vh;
+    }
+    .card-container{
+        margin-left: 58px !important;
+    }
+    
+    
+}
+
+
+/* --------------- Desktop responsive --------------- */
+
+@media (min-width: 1024px) {
+    .home-product-container{
+        background: linear-gradient( rgba(39, 39, 39, 0.644),  rgba(39, 39, 39, 0.644)), url(../../../../images/Home/img-bg.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 50vh;
+    }
+    .card-container{
+        margin-left: 40px !important;
+    }
+    .tablet-responsive-1{
+        margin-left: 0px !important;
+        margin-right: 14px !important;
+    }
+}
+
+
+
+@media (min-width: 1200px) {
+    .home-product-container{
+        background: linear-gradient( rgba(39, 39, 39, 0.644),  rgba(39, 39, 39, 0.644)), url(../../../../images/Home/img-bg.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 97vh;
+    }
+    .card-container{
+        margin-left: 110px !important;
+    }
+    .tablet-responsive-1{
+        margin-left: 0px !important;
+        margin-right: 20px !important;
+    }
+}
+
+
+
+
+
+
+
+
+

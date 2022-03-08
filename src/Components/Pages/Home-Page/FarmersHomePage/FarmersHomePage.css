@@ -1,0 +1,133 @@
+.Farmers-home-section{
+    background: url(../../../../images/Home/farmer-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /* margin-bottom: 80px; */
+}
+.farmer-card-img{
+
+    background: url(../../../../images/Home/farmer-bg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.farmer-card-img img{
+    width: 65%;
+    border: 5px solid white;
+    border-radius: 50%;
+    margin-top: 70px;
+
+}
+.farmer-img img{
+    height: 220px;
+    width: 65%;
+}
+.farmer-name{
+    margin-top: 20px;
+    margin-bottom: 25px;
+    color: rgba(41, 41, 41, 0.876);
+}
+.farmer-social-icon{
+    color: #4fb30d;
+    border: 1px solid #4fb30d;
+    border-radius: 50%;
+    padding: 10px;
+
+}
+.farmer-facebook{
+    width: 40px;
+}
+.farmer-social-icon:hover{
+    color: white;
+    background-color: #4fb30d;
+}
+
+
+
+
+/* --------------- Mobile responsive --------------- */
+
+/* Small Mobile  */
+@media (max-width: 320px) {
+    .Farmers-home-section{
+        background: url(../../../../images/Home/farmer-bg.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 230vh;
+    }
+}
+/* Normal Mobile  */
+@media (min-width: 321px) {
+    .Farmers-home-section{
+        background: url(../../../../images/Home/farmer-bg.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 225vh;
+    }
+}
+@media (min-width: 380px) {
+    .Farmers-home-section{
+        background: url(../../../../images/Home/farmer-bg.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 180vh;
+    }
+}
+
+/* --------------- Tablet responsive --------------- */
+
+/* Tab  */
+@media (min-width: 481px) {
+    .Farmers-home-section{
+        background: url(../../../../images/Home/farmer-bg.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 212vh;
+    }
+}
+
+/* Netbooks / iPad  */
+@media (min-width: 768px) {
+    .Farmers-home-section{
+        background: url(../../../../images/Home/farmer-bg.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 60vh;
+    }
+    .farmers-title h2{
+        font-size: 43px;
+    }
+}
+
+
+
+@media (min-width: 912px) {
+    .Farmers-home-section{
+        background: url(../../../../images/Home/farmer-bg.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 48vh;
+    }
+}
+
+/* --------------- Desktop responsive --------------- */
+
+@media (min-width: 1024px) {
+    .Farmers-home-section{
+        background: url(../../../../images/Home/farmer-bg.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 50vh;
+    }
+}
+@media (min-width: 1200px) {
+    .Farmers-home-section{
+        background: url(../../../../images/Home/farmer-bg.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 95vh;
+    }
+}
+
+
+

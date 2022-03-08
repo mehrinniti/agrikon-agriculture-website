@@ -1,0 +1,481 @@
+.header-wraper{
+    position: relative;
+    background: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.7)), url(../../../../images/frontpage-bg1.png);
+    background-size: cover;
+    background-position: center;
+    /* height: 101.15vh !important; */
+    height: 101.07vh !important;
+    /* width: 100.6vw; */
+    width: 100.5vw;
+    /* padding: 0px !important; */
+    margin: -8px !important;
+
+}
+
+.main-info{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Roboto Condensed" sans-serif;
+    z-index: 1;
+}
+.main-info img{
+    width: 280px;
+    margin-top: 30px;
+    margin-bottom: -20px;
+    margin-left: 90px;
+}
+.main-info h1{
+    /* text-transform: uppercase; */
+    color: white;
+    font-family: serif;
+    font-size: 70px;
+    font-weight: bolder;
+}
+.lastname{
+    color: #008336;
+}
+.main-info h3{
+    font-size: 24px;
+}
+.typed-text{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    border-bottom: 3px solid #008336;
+}
+.green-btn{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    /* border-color: #5078ff; */
+    /* border: 3px solid #008336 !important; */
+    background-color: #008336;
+    border-radius: 50px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    word-spacing: 2px;
+    letter-spacing: 1.7px;
+    font-size: 22px;
+    margin-top: 50px;
+}
+.green-btn:hover{
+    background-color: #deff49ea;
+    color: #008336;
+    font-size:18px;
+    font-weight: bold;
+    /* transition: 2s ; */
+    border-radius: 50px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    word-spacing: 2px;
+    letter-spacing: 1.7px;
+    font-size: 22px;
+    margin-top: 50px;
+    
+}
+.green-btn:focus{
+    background-color: #008336;
+    color: white;
+    font-size:22px;
+    font-weight: bold;
+}
+
+
+/* 
+@media (max-width: 374px) {
+    .main-info h1{
+        font-size: 50px;
+    }
+    .main-info h3{
+        font-size: 23px;
+    }
+    .typed-text{
+        font-size: 25px;
+    }
+} */
+
+
+
+
+/* --------------- Mobile responsive --------------- */
+
+/* Small Mobile  */
+@media (max-width: 320px) {
+    .header-wraper{
+        position: relative;
+        background: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.7)), url(../../../../images/frontpage-bg1.png);
+        background-size: cover;
+        background-position: center;
+        height: 100vh !important;
+        width: 102.4vw;
+        margin: 0px ;
+    
+    }
+    
+    .main-info{
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: "Roboto Condensed" sans-serif;
+        z-index: 1;
+    }
+    .main-info img{
+        width: 200px;
+        margin-top: -20px;
+        margin-bottom: 0px;
+        margin-left: 90px;
+    }
+    .main-info h1{
+        color: white;
+        font-family: serif;
+        font-size: 42px;
+        font-weight: bolder;
+    }
+    .lastname{
+        color: #008336;
+    }
+    .main-info h3{
+        font-size: 17px;
+    }
+    .typed-text{
+        color: white;
+        font-size: 20px;
+        font-weight: bolder;
+        border-bottom: 3px solid #008336;
+    }
+    .green-btn{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        background-color: #008336;
+        border-radius: 50px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 22px;
+        padding-right: 22px;
+        word-spacing: 2px;
+        letter-spacing: 1.7px;
+        font-size: 19px;
+        margin-top: 50px;
+    }
+    .green-btn:hover{
+        background-color: #deff49ea;
+        color: #008336;
+        font-size:18px;
+        font-weight: bold;
+        /* transition: 2s ; */
+        border-radius: 50px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        padding-left: 30px;
+        padding-right: 30px;
+        word-spacing: 2px;
+        letter-spacing: 1.7px;
+        font-size: 22px;
+        margin-top: 50px;
+        
+    }
+    .green-btn:focus{
+        background-color: #008336;
+        color: white;
+        font-size:22px;
+        font-weight: bold;
+    }
+    
+    
+}
+/* Normal Mobile  */
+@media (min-width: 321px) {
+    .header-wraper{
+        position: relative;
+        background: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.7)), url(../../../../images/frontpage-bg1.png);
+        background-size: cover;
+        background-position: center;
+        height: 101vh !important;
+        width: 102vw;
+        margin: 0px ;
+    
+    }
+    
+    .main-info{
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: "Roboto Condensed" sans-serif;
+        z-index: 1;
+    }
+    .main-info img{
+        width: 250px;
+        margin-top: -20px;
+        margin-bottom: 0px;
+        margin-left: 90px;
+    }
+    .main-info h1{
+        color: white;
+        font-family: serif;
+        font-size: 45px;
+        font-weight: bolder;
+    }
+    .lastname{
+        color: #008336;
+    }
+    .main-info h3{
+        font-size: 19px;
+    }
+    .typed-text{
+        color: white;
+        font-size: 21px;
+        font-weight: bolder;
+        border-bottom: 3px solid #008336;
+    }
+    .green-btn{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        background-color: #008336;
+        border-radius: 50px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        padding-left: 25px;
+        padding-right: 25px;
+        word-spacing: 2px;
+        letter-spacing: 1.7px;
+        font-size: 21px;
+        margin-top: 50px;
+    }
+    
+}
+
+@media (min-width: 380px) {
+    .header-wraper{
+        position: relative;
+        background: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.7)), url(../../../../images/frontpage-bg1.png);
+        background-size: cover;
+        background-position: center;
+        height: 100.8vh !important;
+        width: 102vw;
+        margin: 0px ;
+    
+    }
+    .main-info img{
+        width: 280px;
+        margin-top: -60px;
+        margin-bottom: 0px;
+        margin-left: 90px;
+    }
+    .main-info h1{
+        color: white;
+        font-family: serif;
+        font-size: 53px;
+        font-weight: bolder;
+    }
+    .main-info h3{
+        font-size: 20px;
+    }
+    .typed-text{
+        color: white;
+        font-size: 23px;
+        font-weight: bolder;
+        border-bottom: 3px solid #008336;
+    }
+    .green-btn{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        background-color: #008336;
+        border-radius: 50px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        padding-left: 30px;
+        padding-right: 30px;
+        word-spacing: 2px;
+        letter-spacing: 1.7px;
+        font-size: 22px;
+        margin-top: 50px;
+    }
+}
+
+
+@media (min-width: 400px) {
+    .header-wraper{
+        position: relative;
+        background: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.7)), url(../../../../images/frontpage-bg1.png);
+        background-size: cover;
+        background-position: center;
+        height: 100.8vh !important;
+        width: 102vw;
+        margin: 0px ;
+    
+    }
+    .main-info img{
+        width: 280px;
+        margin-top: -60px;
+        margin-bottom: 0px;
+        margin-left: 90px;
+    }
+    .main-info h1{
+        color: white;
+        font-family: serif;
+        font-size: 60px;
+        font-weight: bolder;
+    }
+    .main-info h3{
+        font-size: 22px;
+    }
+    .typed-text{
+        color: white;
+        font-size: 24px;
+        font-weight: bolder;
+        border-bottom: 3px solid #008336;
+    }
+    .green-btn{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        background-color: #008336;
+        border-radius: 50px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        padding-left: 30px;
+        padding-right: 30px;
+        word-spacing: 2px;
+        letter-spacing: 1.7px;
+        font-size: 22px;
+        margin-top: 50px;
+    }
+}
+
+
+/* --------------- Tablet responsive --------------- */
+
+/* Tab  */
+@media (min-width: 481px) {
+    .typed-text{
+        color: white;
+        font-size: 25px;
+        font-weight: bolder;
+        border-bottom: 3px solid #008336;
+    }
+}
+
+/* Netbooks / iPad  */
+@media (min-width: 768px) {
+    .header-wraper{
+        position: relative;
+        background: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.7)), url(../../../../images/frontpage-bg1.png);
+        background-size: cover;
+        background-position: center;
+        height: 100.6vh !important;
+        width: 101vw;
+        margin: 0px ;
+    
+    }
+    .main-info img{
+        width: 280px;
+        margin-top: -60px;
+        margin-bottom: 0px;
+        margin-left: 90px;
+    }
+    .main-info h1{
+        color: white;
+        font-family: serif;
+        font-size: 70px;
+        font-weight: bolder;
+    }
+    .main-info h3{
+        font-size: 24px;
+    }
+    .typed-text{
+        color: white;
+        font-size: 30px;
+        font-weight: bolder;
+        border-bottom: 3px solid #008336;
+    }
+    .green-btn{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        background-color: #008336;
+        border-radius: 50px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        padding-left: 30px;
+        padding-right: 30px;
+        word-spacing: 2px;
+        letter-spacing: 1.7px;
+        font-size: 22px;
+        margin-top: 50px;
+    }
+}
+
+
+@media (min-width: 912px) {
+    .header-wraper{
+        position: relative;
+        background: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.7)), url(../../../../images/frontpage-bg1.png);
+        background-size: cover;
+        background-position: center;
+        height: 100.5vh !important;
+        width: 100.7vw;
+        margin: 0px ;
+    
+    }
+}
+
+
+/* --------------- Desktop responsive --------------- */
+
+@media (min-width: 1024px) {
+    .menu{
+        /* color: #008336; */
+    }
+}
+
+@media (min-width: 1200px) {
+    .header-wraper{
+        position: relative;
+        background: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.7)), url(../../../../images/frontpage-bg1.png);
+        background-size: cover;
+        background-position: center;
+        height: 101.2vh !important;
+        width: 100.5vw;
+        margin: 0px ;
+    
+    }
+}
+
+
+
+
+
+
+
+
+
+

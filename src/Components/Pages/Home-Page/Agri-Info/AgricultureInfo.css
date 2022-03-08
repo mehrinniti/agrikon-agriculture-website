@@ -1,0 +1,237 @@
+.agricaltureInfo{
+    margin-bottom: 0px !important;
+    margin-top: 50px !important;
+    font-family: cursive;
+}
+.home-info-line{
+    color: #008336;
+    padding: 1px 0px;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-bottom: 60px;
+}
+
+.info-container img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    /* border-left: 2px solid #008336; */
+    /* border-right: 2px solid #008336; */
+    border: 4px solid #008336 ;
+    /* padding: 5px 5px; */
+    /* padding-left: 12px; */
+    /* padding-right: 12px; */
+    transition: 1.4s;
+}
+.info-container img:hover{
+    transform:  rotateY(360deg);
+    cursor: pointer;
+}
+/* .img-section img{
+    transition: 0.6s;
+}
+.img-section img:hover{
+    transform: scale(1.2) skew(5deg);
+    cursor: pointer;
+} */
+/* .info-container img::before{
+    background: #008336;
+    content: "hello";
+
+}
+.info-container img:hover::before{
+    background-color: #008336;
+}
+
+.info-image{
+    background-color: red;
+}
+.img-section .img-bg img{
+    width: 320px;
+    height: 500px;
+    border-radius: 50%;
+    /* border: 3px solid #008336 ; */
+    /* background-color: red; */
+    /* padding: 50px; */
+
+/* } */ 
+
+
+
+
+
+
+
+/* --------------- Mobile responsive --------------- */
+
+/* Small Mobile */
+@media (max-width: 320px) {
+    .agricaltureInfo{
+        /* margin-left: -5px; */
+    }
+    .agricaltureInfo h2{
+        font-size: 20px;
+    }
+    .home-info-line{
+        margin-left: 32%;
+        margin-right: 32%;
+    }
+
+    .info-container img{
+        width: 230px;
+        height: 230px;
+    }
+    .rice-home-img{
+        margin-bottom: 25px;
+    }
+
+
+}
+
+/* Normal Mobile  */
+@media (min-width: 321px) {
+    .agricaltureInfo h2{
+        font-size: 24px;
+    }
+    .home-info-line{
+        margin-left: 32%;
+        margin-right: 32%;
+    }
+    .info-container img{
+        width: 337px;
+        height: 337px;
+    }
+    .rice-home-img{
+        margin-bottom: 25px;
+    }
+}
+
+/* --------------- Tablet responsive --------------- */
+
+/* Tab  */
+@media (min-width: 481px) {
+    .agricaltureInfo{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .agricaltureInfo h2{
+        font-size: 30px;
+    }
+    .home-info-line{
+        margin-left: 40%;
+        margin-right: 40%;
+    }
+    .info-container img{
+        width: 200px;
+        height: 200px;
+    }
+    .rice-home-img{
+        /* margin-bottom: 25px; */
+    }
+}
+
+/* Netbooks  */
+@media (min-width: 768px) {
+    
+    /* .agricaltureInfo h2{
+        font-size: 43px;
+    }
+    .home-info-line{
+        margin-left: 40%;
+        margin-right: 40%;
+    }
+    .info-container img{
+        width: 296px;
+        height: 296px;
+    } */
+    .agricaltureInfo h2{
+        font-size: 43px;
+    }
+    .info-container img{
+        width: 220px;
+        height: 220px;
+    }
+
+}
+
+/* --------------- Desktop responsive --------------- */
+
+@media (min-width: 1024px) {
+    .agricaltureInfo{
+        margin-bottom: 50px;
+        margin-top: 80px;
+        font-family: cursive;
+    }
+    .home-info-line{
+        color: #008336;
+        padding: 1px 0px;
+        margin-left: 45%;
+        margin-right: 45%;
+        margin-bottom: 60px;
+    }
+    
+    .info-container img{
+        width: 280px;
+        height: 280px;
+        border-radius: 50%;
+        /* border-left: 2px solid #008336; */
+        /* border-right: 2px solid #008336; */
+        border: 4px solid #008336 ;
+        /* padding: 5px 5px; */
+        /* padding-left: 12px; */
+        /* padding-right: 12px; */
+        transition: 1.4s;
+    }
+    .info-container img:hover{
+        transform:  rotateY(360deg);
+        cursor: pointer;
+    }
+}
+
+
+
+
+@media (min-width: 1200px) {
+    .agricaltureInfo{
+        margin-bottom: 50px;
+        margin-top: 80px;
+        font-family: cursive;
+    }
+    .home-info-line{
+        color: #008336;
+        padding: 1px 0px;
+        margin-left: 45%;
+        margin-right: 45%;
+        margin-bottom: 60px;
+    }
+    
+    .info-container img{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        /* border-left: 2px solid #008336; */
+        /* border-right: 2px solid #008336; */
+        border: 4px solid #008336 ;
+        /* padding: 5px 5px; */
+        /* padding-left: 12px; */
+        /* padding-right: 12px; */
+        transition: 1.4s;
+    }
+    .info-container img:hover{
+        transform:  rotateY(360deg);
+        cursor: pointer;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

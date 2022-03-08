@@ -1,0 +1,341 @@
+.why-choose-us-home-container{
+    margin-top: 140px;
+    /* margin-bottom: 20px; */
+    /* margin-left: -49px !important; */
+    /* margin-right: 13px; */
+    margin-left: -8px !important;
+    margin-right: 15px;
+
+}
+
+.choose-us-row-container{
+    height: 80vh;
+}
+
+.choose-us-img{
+    width: 650px;
+    height: 440px;
+}
+
+.why-choose-us-details{
+    background: url(../../../../images/Home/why-choose-us-bg3.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    margin-top: 35px;
+    padding-top: 20px;
+}
+
+.why-choose-us-details h1{
+    font-weight: 700;
+    margin-left: 18px;
+}
+
+.why-choose-us-details p{
+    font-weight: 500;
+    margin-left: 18px;
+}
+.choose-us-signature img{
+    width: 35%;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    margin-left: 18px;
+}
+
+
+
+
+
+
+
+
+
+/* --------------- Mobile responsive --------------- */
+
+/* Small Mobile  */
+@media (max-width: 320px) {
+    .why-choose-us-home-container{
+        margin-top: -150px;
+    }
+    
+    .choose-us-img{
+        width: 288px;
+        height: 240px;
+    }
+    
+    .why-choose-us-details{
+        background: url(../../../../images/Home/why-choose-us-bg3.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+        text-align: left;
+        margin-top: 35px;
+        padding-top: 20px;
+        margin-left: 20px;
+
+        width: 280px;
+    }
+    
+    
+}
+/* Normal Mobile  */
+@media (min-width: 321px) {
+    .why-choose-us-home-container{
+        margin-top: 0px;
+        margin-bottom: 330px;
+    }
+    .choose-us-img{
+        width: 383px;
+        height: 240px;
+    }
+    
+    .why-choose-us-details{
+        background: url(../../../../images/Home/why-choose-us-bg3.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+        text-align: left;
+        margin-top: 35px;
+        padding-top: 20px;
+        margin-left: 20px;
+
+        width: 374px;
+    }
+    
+}
+
+@media (min-width: 380px) {
+    .why-choose-us-home-container{
+        margin-top: -180px;
+        margin-bottom: 150px;
+    }
+    .choose-us-img{
+        width: 400px;
+        height: 240px;
+    }
+    
+    .why-choose-us-details{
+        background: url(../../../../images/Home/why-choose-us-bg3.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+        text-align: left;
+        margin-top: 35px;
+        padding-top: 20px;
+        margin-left: 20px;
+
+        width: 390px;
+    }
+}
+
+
+
+
+@media (min-width: 400px) {
+    .why-choose-us-home-container{
+        margin-top: -180px;
+    }
+    .choose-us-img{
+        width: 420px;
+        height: 240px;
+    }
+    
+    .why-choose-us-details{
+        background: url(../../../../images/Home/why-choose-us-bg3.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+        text-align: left;
+        margin-top: 35px;
+        padding-top: 20px;
+        margin-left: 20px;
+
+        width: 411px;
+    }
+}
+
+
+/* --------------- Tablet responsive --------------- */
+
+/* Tab  */
+@media (min-width: 481px) {
+    .why-choose-us-home-container{
+        margin-top: -70px;
+        margin-bottom: 220px;
+    }
+    .choose-us-img{
+        width: 547px;
+        height: 240px;
+    }
+    
+    .why-choose-us-details{
+        background: url(../../../../images/Home/why-choose-us-bg3.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+        text-align: left;
+        margin-top: 35px;
+        padding-top: 20px;
+        margin-left: 20px;
+
+        width: 538px;
+    }
+}
+
+/* Netbooks / iPad  */
+@media (min-width: 768px) {
+    .why-choose-us-home-container{
+        margin-top: 20px;
+        margin-left: -7px !important;
+        margin-right: 15px;
+        margin-bottom: -350px;
+    }
+    .choose-us-img{
+        width: 380px;
+        height: 370px;
+    }
+    
+    .why-choose-us-details{
+        background: url(../../../../images/Home/why-choose-us-bg3.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+        text-align: left;
+        margin-top: 0px;
+        padding-top: 9px;
+        margin-left: 0px;
+
+        width: 392px;
+
+
+        /* margin-right: -60px !important; */
+    }
+}
+
+
+@media (min-width: 820px) {
+    .why-choose-us-home-container{
+        margin-top: -30px;
+        margin-left: -7px !important;
+        margin-right: 15px;
+        margin-bottom: -480px;
+    }
+    .choose-us-img{
+        width: 400px;
+        height: 370px;
+    }
+    
+    .why-choose-us-details{
+        background: url(../../../../images/Home/why-choose-us-bg3.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+        text-align: left;
+        margin-top: 0px;
+        padding-top: 9px;
+        margin-left: 0px;
+
+        width: 417px;
+    }
+}
+
+
+@media (min-width: 912px) {
+    .why-choose-us-home-container{
+        margin-top: 10px;
+        margin-left: 0px !important;
+        margin-right: 11px;
+        margin-bottom: -620px;
+    }
+    .choose-us-img{
+        width: 440px;
+        height: 370px;
+    }
+    
+    .why-choose-us-details{
+        background: url(../../../../images/Home/why-choose-us-bg3.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+        text-align: left;
+        margin-top: 0px;
+        padding-top: 9px;
+        margin-left: 0px;
+
+        width: 459px;
+    }
+}
+
+
+/* --------------- Desktop responsive --------------- */
+
+@media (min-width: 1024px) {
+    .why-choose-us-home-container{
+        margin-top: 40px;
+        margin-left: 0px !important;
+        margin-right: 11px;
+    }
+    .choose-us-img{
+        width: 500px;
+        height: 370px;
+    }
+    
+    .why-choose-us-details{
+        background: url(../../../../images/Home/why-choose-us-bg3.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+        text-align: left;
+        margin-top: 0px;
+        padding-top: 9px;
+        margin-left: 0px;
+
+        width: 516px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .why-choose-us-home-container{
+        margin-top: 60px;
+        margin-left: -14px !important;
+        margin-right: 12px;
+        margin-bottom: -70px;
+    }
+    .choose-us-img{
+        width: 635px;
+        height: 390px;
+        /* width: 500px;
+        height: 370px; */
+    }
+    
+    .why-choose-us-details{
+        background: url(../../../../images/Home/why-choose-us-bg3.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+        text-align: left;
+        margin-top: 0px;
+        padding-top: 20px;
+        margin-left: 0px;
+
+        /* width: 648px; */
+        width: 684px;
+    }
+}
+
+
+
+/* @media (min-width: 1220px) {
+    .why-choose-us-home-container{
+        margin-top: 140px;
+        margin-left: -14px !important;
+        margin-right: 20px;
+    }
+    .choose-us-img{
+        width: 630px;
+        height: 390px;
+    }
+    
+    .why-choose-us-details{
+        background: url(../../../../images/Home/why-choose-us-bg3.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+        text-align: left;
+        margin-top: 0px;
+        padding-top: 20px;
+        margin-left: 0px;
+
+        width: 630px;
+    }
+} */
+
